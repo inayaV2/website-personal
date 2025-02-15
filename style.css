@@ -1,0 +1,85 @@
+/* Gaya dasar untuk seluruh halaman */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Warna latar belakang body */
+  color: #333; /* Warna teks default */
+}
+
+/* Gaya untuk header */
+header {
+  background-color: #6a0dad; /* Warna ungu */
+  color: white; /* Warna teks putih */
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Gaya untuk navigasi */
+nav {
+  background-color: #333; /* Warna hitam */
+  color: white; /* Warna teks putih */
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white; /* Warna teks putih untuk link */
+  margin: 0 15px;
+  text-decoration: none; /* Menghilangkan underline pada link */
+}
+
+nav a:hover {
+  text-decoration: underline; /* Menambahkan underline saat hover */
+}
+
+/* Gaya untuk container utama */
+.container {
+  display: flex;
+  margin: 20px;
+}
+
+/* Gaya untuk aside (sidebar) */
+aside {
+  background-color: #6a0dad; /* Warna ungu */
+  color: white; /* Warna teks putih */
+  padding: 20px;
+  width: 25%; /* Lebar aside */
+  margin-right: 20px;
+  border-radius: 8px; /* Membuat sudut melengkung */
+}
+
+aside img {
+  margin-top: 10px;
+  border-radius: 8px; /* Membuat sudut gambar melengkung */
+}
+
+/* Gaya untuk main content */
+main {
+  flex: 1; /* Mengisi sisa ruang yang tersedia */
+}
+
+/* Gaya untuk article */
+article {
+  background-color: white; /* Warna latar belakang putih */
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd; /* Garis tepi abu-abu */
+  border-radius: 8px; /* Membuat sudut melengkung */
+}
+
+article img {
+  margin-bottom: 15px;
+  border-radius: 8px; /* Membuat sudut gambar melengkung */
+}
+
+/* Gaya untuk footer */
+footer {
+  background-color: #333; /* Warna hitam */
+  color: white; /* Warna teks putih */
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
